@@ -3,7 +3,7 @@
 [![Python 3.10+](https://img.shields.io/badge/python-3.10+-blue.svg)](https://www.python.org/downloads/)
 [![License: MIT](https://img.shields.io/badge/license-MIT-green.svg)](LICENSE)
 [![MCP](https://img.shields.io/badge/MCP-Model%20Context%20Protocol-purple)](https://modelcontextprotocol.io)
-[![Test](https://github.com/qd3/qd3-fsutils/actions/workflows/test.yml/badge.svg)](https://github.com/qd3/qd3-fsutils/actions/workflows/test.yml)
+[![Test](https://github.com/mr3inar/qd3-fsutils/actions/workflows/test.yml/badge.svg)](https://github.com/mr3inar/qd3-fsutils/actions/workflows/test.yml)
 [![PyPI](https://img.shields.io/badge/pypi-v1.1.0-blue)](https://pypi.org/project/qd3-fsutils/)
 
 **qd3-fsutils** is an [MCP (Model Context Protocol)](https://modelcontextprotocol.io) server that gives AI agents safe, atomic file operations — no more corrupted files, broken SEARCH/REPLACE diffs, or shell-escaping nightmares.
@@ -64,7 +64,7 @@ pip install qd3-fsutils
 ### Install from source
 
 ```bash
-git clone https://github.com/qd3/qd3-fsutils.git
+git clone https://github.com/mr3inar/qd3-fsutils.git
 cd qd3-fsutils
 pip install -e .
 ```
@@ -619,7 +619,7 @@ qd3-fsutils/
 
 ```bash
 # Clone and install in dev mode
-git clone https://github.com/qd3/qd3-fsutils.git
+git clone https://github.com/mr3inar/qd3-fsutils.git
 cd qd3-fsutils
 pip install -e .
 
@@ -648,4 +648,4 @@ MIT — see [LICENSE](LICENSE) for details.
 
 ## Contributing
 
-Contributions are welcome! Please open an issue or submit a pull request on [GitHub](https://github.com/qd3/qd3-fsutils).
+Contributions are welcome! Please open an issue or submit a pull request on [GitHub](https://github.com/mr3inar/qd3-fsutils).
