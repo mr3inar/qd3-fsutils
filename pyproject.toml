@@ -1,0 +1,50 @@
+[build-system]
+requires = ["setuptools>=68.0", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "qd3-fsutils"
+version = "1.1.0"
+description = "Safe, atomic file operations MCP server for AI agents — edit files, escape SQL/shell, sync via SSH"
+readme = "README.md"
+license = {text = "MIT"}
+authors = [
+    {name = "qd3", email = "qd3@users.noreply.github.com"},
+]
+keywords = [
+    "mcp", "model-context-protocol", "file-operations",
+    "atomic-write", "backup", "ssh", "rsync",
+    "sql-escape", "shell-escape", "ai-agent",
+]
+classifiers = [
+    "Development Status :: 4 - Beta",
+    "Environment :: Console",
+    "Intended Audience :: Developers",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+    "Programming Language :: Python :: 3.12",
+    "Topic :: System :: Filesystems",
+    "Topic :: Utilities",
+]
+requires-python = ">=3.10"
+dependencies = [
+    "mcp>=1.0.0",
+]
+
+[project.urls]
+Homepage = "https://github.com/qd3/qd3-fsutils"
+Repository = "https://github.com/qd3/qd3-fsutils"
+Documentation = "https://github.com/qd3/qd3-fsutils#readme"
+Issues = "https://github.com/qd3/qd3-fsutils/issues"
+
+[project.scripts]
+qd3-fsutils = "qd3_fsutils.run:main"
+
+[tool.setuptools.packages.find]
+include = ["qd3_fsutils*"]
+
+[tool.setuptools.package-data]
+"*" = ["py.typed"]
